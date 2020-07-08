@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube speed",
+  "version": "1.0",
+
+  "description": "You can exceed the youtubes standard speed",
+
+
+
+ 
+
+    "permissions": ["https://*.youtube.com/*", "activeTab"],
+    "browser_action": {
+        "default_title": "Set this videos speed.",
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+      }
+}
+
+
+
